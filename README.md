@@ -30,6 +30,16 @@ Follow these steps to set up and run the project on your local machine:
 ### 1. Clone the repository
 ```bash
 git clone [https://github.com/abini-nk/FOOD_WASTE_PRED_-_SMART_DONATION_RECOMMENDATION_SYSTEM.git](https://github.com/abini-nk/FOOD_WASTE_PRED_-_SMART_DONATION_RECOMMENDATION_SYSTEM.git)
-cd FOOD_WASTE_PRED_-_SMART_DONATION_RECOMMENDATION_SYSTEM
+
+### 2. Install dependencies
+```bash
 pip install -r requirements.txt
+### 3. Run the Streamlit app
+```bash
 streamlit run app.py
+🔮 Future Enhancements
+Real-Time Notification Integration: Integrating automated alerts to notify nearby NGOs when surplus food exceeds safety thresholds.
+
+Advanced Geospatial Mapping: Implementing interactive mapping libraries to visually plot charity and donation drop-off locations.
+
+Model Deployment: Deploying the Streamlit web app to cloud platforms for public access.
