@@ -5,7 +5,7 @@ An end-to-end Machine Learning web application designed to forecast food demand 
 ## 🚀 Key Features
 
 - **Demand Forecasting:** Predicts precise food order demand (`num_orders`) using historical operational data.
-- **Machine Learning Pipeline:** Implements **Random Forest Regressor** with hyperparameter tuning via **RandomizedSearchCV** (achieving an $R^2$ Score of **~0.75**).
+- **Machine Learning Pipeline:** Implements **Random Forest Regressor** with hyperparameter tuning via **RandomizedSearchCV** (achieving an $R^2$ Score of **~0.741**).
 - **Exploratory Data Analysis (EDA):** Uses **Seaborn** and **Matplotlib** to visualize weekly demand trends, price impacts, promotion distributions, and feature importance.
 - **Geocoding API Integration:** Integrates OpenStreetMap's Nominatim API to capture precise geographical coordinates (latitude & longitude) for targeted location alerts.
 - **Interactive Dashboard:** Built using **Streamlit** to provide a real-time web interface for evaluating waste thresholds and dispatching NGO alerts.
